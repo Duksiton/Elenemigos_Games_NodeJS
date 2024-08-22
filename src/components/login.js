@@ -33,29 +33,10 @@ return(
 
     </div>
 
-    <div className="uk-navbar-right"><a className="uk-navbar-toggle tm-navbar-button" href="#" uk-search-icon />
+    <div className="uk-navbar-right">
 
-      <div className="uk-navbar-dropdown uk-padding-small uk-margin-remove" uk-drop="mode: click;cls-drop: uk-navbar-dropdown;boundary: .tm-navbar-container;boundary-align: true;pos: bottom-justify;flip: x">
-
-        <div className="uk-container">
-
-          <div className="uk-grid-small uk-flex-middle" uk-grid>
-
-            <div className="uk-width-expand">
-
-              <form className="uk-search uk-search-navbar uk-width-1-1"><input className="uk-search-input" type="search" placeholder="Search¦" autofocus />
-
-              </form>
-
-            </div>
-
-            <div className="uk-width-auto"><a className="uk-navbar-dropdown-close" href="#" uk-close /></div>
-
-          </div>
-
-        </div>
-
-      </div><a className="uk-navbar-item uk-link-muted tm-navbar-button" href="ordenes.html" uk-icon="user" />
+      
+      <a className="uk-navbar-item uk-link-muted tm-navbar-button" href="ordenes.html" uk-icon="user" />
 
       <div className="uk-padding-small uk-margin-remove" uk-dropdown="pos: bottom-right; offset: -10; delay-hide: 200;" style={{minWidth: 150}}>
 
@@ -64,7 +45,7 @@ return(
         <li><Link to="/login">Iniciar Sesión</Link></li>
           <li className="uk-nav-divider" />
 
-          <li><a href="registro.html">Registrarse</a></li>
+          <li><Link to="/register">Registrarse</Link></li>
 
         </ul>
 

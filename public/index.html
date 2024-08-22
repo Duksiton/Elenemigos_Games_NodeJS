@@ -4,21 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/css/uikit.min.css" />
 </head>
 <body>
   <nav class="uk-navbar">
     <div class="uk-navbar-right">
-      <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
+      <!-- Tu contenido de navegación -->
     </div>
   </nav>
 
+  <!-- Aquí va el botón -->
+ 
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/js/uikit-icons.min.js"></script>
 
-<!-- UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/js/uikit-icons.min.js"></script>
-<div id="root"></div>
+  <!-- Script para manejar el clic en los botones -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Selecciona todos los botones con la clase .js-add-to-cart
+      const botones = document.querySelectorAll('.js-add-to-cart');
+
+      botones.forEach(boton => {
+        boton.addEventListener('click', () => {
+          alert('Primero inicia sesión o regístrate para comprar!');
+        });
+      });
+    });
+  </script>
+  
+  <div id="root"></div>
 </body>
 </html>
-
-

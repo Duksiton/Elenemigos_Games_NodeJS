@@ -7,14 +7,23 @@ import { Link } from 'react-router-dom';
 import UIkit from 'uikit';
 
 import Icons from 'uikit/dist/js/uikit-icons';
-;
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 UIkit.use(Icons);
 
 
 function Index() {
-
+  const manejarClick = () => {
+    toast('Primero inicia sesión o regístrate para comprar!', {
+      type: 'warning', // Especifica el tipo de notificación
+      autoClose: 2000, // Tiempo en milisegundos para cerrar automáticamente
+      hideProgressBar: false, // Muestra o oculta la barra de progreso
+      closeOnClick: true, // Permite cerrar la notificación al hacer clic
+      pauseOnHover: true, // Pausa el temporizador cuando el cursor está sobre la notificación
+    });
+  };
   return (
 
 <div>
@@ -47,7 +56,7 @@ function Index() {
 
           </div>
 
-          <div className="uk-navbar-right"><a className="uk-navbar-toggle tm-navbar-button" href="#" uk-search-icon />
+          <div className="uk-navbar-right">
 
             <div className="uk-navbar-dropdown uk-padding-small uk-margin-remove" uk-drop="mode: click;cls-drop: uk-navbar-dropdown;boundary: .tm-navbar-container;boundary-align: true;pos: bottom-justify;flip: x">
 
@@ -57,9 +66,7 @@ function Index() {
 
                   <div className="uk-width-expand">
 
-                    <form className="uk-search uk-search-navbar uk-width-1-1"><input className="uk-search-input" type="search" placeholder="Search¦" autofocus />
-
-                    </form>
+                    
 
                   </div>
 
@@ -104,7 +111,7 @@ function Index() {
 
 
 
-            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="inv_rock.html">
+            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invrock">
 
                 <div className="tm-ratio tm-ratio-4-3">
 
@@ -126,7 +133,7 @@ function Index() {
 
               </a></div>
 
-            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="inv_activision.html">
+            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invactivision">
 
                 <div className="tm-ratio tm-ratio-4-3">
 
@@ -148,7 +155,7 @@ function Index() {
 
               </a></div>
 
-            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="inv_ubisoft.html">
+            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invubisoft">
 
                 <div className="tm-ratio tm-ratio-4-3">
 
@@ -170,7 +177,7 @@ function Index() {
 
               </a></div>
 
-            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="inv_valve.html">
+            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invvalve">
 
                 <div className="tm-ratio tm-ratio-4-3">
 
@@ -192,7 +199,7 @@ function Index() {
 
               </a></div>
 
-            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="inv_ea.html">
+            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invea">
 
                 <div className="tm-ratio tm-ratio-4-3">
 
@@ -214,7 +221,7 @@ function Index() {
 
               </a></div>
 
-            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="inv_namco.html">
+            <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invbandai">
 
                 <div className="tm-ratio tm-ratio-4-3">
 
@@ -296,9 +303,16 @@ function Index() {
 
                             favoritos</span></a>
 
-                      </div><button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart"><span className="tm-product-card-add-button-icon" uk-icon="cart" /><span className="tm-product-card-add-button-text">Agregar al
+                      </div> <button
+        className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
+        onClick={manejarClick}
+      >
+        <span className="tm-product-card-add-button-icon" uk-icon="cart" />
+        <span className="tm-product-card-add-button-text">Agregar al carrito</span>
+      </button>
 
-                          carrito</span></button>
+      {/* Contenedor para notificaciones */}
+      <ToastContainer />
 
                     </div>
 
@@ -346,9 +360,16 @@ function Index() {
 
                             favoritos</span></a>
 
-                      </div><button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart"><span className="tm-product-card-add-button-icon" uk-icon="cart" /><span className="tm-product-card-add-button-text">Agregar al
+                      </div><button
+        className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
+        onClick={manejarClick}
+      >
+        <span className="tm-product-card-add-button-icon" uk-icon="cart" />
+        <span className="tm-product-card-add-button-text">Agregar al carrito</span>
+      </button>
 
-                          carrito</span></button>
+      {/* Contenedor para notificaciones */}
+      <ToastContainer />
 
                     </div>
 
@@ -396,9 +417,16 @@ function Index() {
 
                             favoritos</span></a>
 
-                      </div><button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart"><span className="tm-product-card-add-button-icon" uk-icon="cart" /><span className="tm-product-card-add-button-text">AÃ±adir al
+                      </div><button
+        className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
+        onClick={manejarClick}
+      >
+        <span className="tm-product-card-add-button-icon" uk-icon="cart" />
+        <span className="tm-product-card-add-button-text">Agregar al carrito</span>
+      </button>
 
-                          carrito</span></button>
+      {/* Contenedor para notificaciones */}
+      <ToastContainer />
 
                     </div>
 
@@ -414,7 +442,7 @@ function Index() {
 
                   <div className="tm-ratio tm-ratio-4-3"><a className="tm-media-box" href>
 
-                      <div className="tm-product-card-labels"><span className="uk-label uk-label-warning">MÃ¡s vendidos</span></div>
+                      <div className="tm-product-card-labels"><span className="uk-label uk-label-warning">Más vendidos</span></div>
 
                       <figure className="tm-media-box-wrap"><img src="images/juegos/left_4_dead_2.jpg" alt="L4D2" /></figure>
 
@@ -448,9 +476,16 @@ function Index() {
 
                             favoritos</span></a>
 
-                      </div><button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart"><span className="tm-product-card-add-button-icon" uk-icon="cart" /><span className="tm-product-card-add-button-text">AÃ±adir al
+                      </div><button
+        className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
+        onClick={manejarClick}
+      >
+        <span className="tm-product-card-add-button-icon" uk-icon="cart" />
+        <span className="tm-product-card-add-button-text">Agregar al carrito</span>
+      </button>
 
-                          carrito</span></button>
+      {/* Contenedor para notificaciones */}
+      <ToastContainer />
 
                     </div>
 
@@ -494,13 +529,21 @@ function Index() {
 
                     <div className="tm-product-card-add">
 
-                      <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">AÃ±adir a
+                      <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">Añadir a
 
                             favoritos</span></a>
 
-                      </div><button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart"><span className="tm-product-card-add-button-icon" uk-icon="cart" /><span className="tm-product-card-add-button-text">Agregar al
+                      </div><button
+        className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
+        onClick={manejarClick}
+      >
+        <span className="tm-product-card-add-button-icon" uk-icon="cart" />
+        <span className="tm-product-card-add-button-text">Agregar al carrito</span>
+      </button>
 
-                          carrito</span></button>
+      {/* Contenedor para notificaciones */}
+      <ToastContainer />
+
 
                     </div>
 
@@ -550,9 +593,16 @@ function Index() {
 
                             favoritos</span></a>
 
-                      </div><button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart"><span className="tm-product-card-add-button-icon" uk-icon="cart" /><span className="tm-product-card-add-button-text">Agregar al
+                      </div><button
+        className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
+        onClick={manejarClick}
+      >
+        <span className="tm-product-card-add-button-icon" uk-icon="cart" />
+        <span className="tm-product-card-add-button-text">Agregar al carrito</span>
+      </button>
 
-                          carrito</span></button>
+      {/* Contenedor para notificaciones */}
+      <ToastContainer />
 
                     </div>
 
@@ -598,10 +648,16 @@ function Index() {
 
                             favoritos</span></a>
 
-                      </div><button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart"><span className="tm-product-card-add-button-icon" uk-icon="cart" /><span className="tm-product-card-add-button-text">Agregar al
+                      </div><button
+        className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
+        onClick={manejarClick}
+      >
+        <span className="tm-product-card-add-button-icon" uk-icon="cart" />
+        <span className="tm-product-card-add-button-text">Agregar al carrito</span>
+      </button>
 
-                          carrito</span></button>
-
+      {/* Contenedor para notificaciones */}
+      <ToastContainer />
                     </div>
 
                   </div>
@@ -648,10 +704,16 @@ function Index() {
 
                             favoritos</span></a>
 
-                      </div><button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart"><span className="tm-product-card-add-button-icon" uk-icon="cart" /><span className="tm-product-card-add-button-text">Agregar al
+                      </div><button
+        className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
+        onClick={manejarClick}
+      >
+        <span className="tm-product-card-add-button-icon" uk-icon="cart" />
+        <span className="tm-product-card-add-button-text">Agregar al carrito</span>
+      </button>
 
-                          carrito</span></button>
-
+      {/* Contenedor para notificaciones */}
+      <ToastContainer />
                     </div>
 
                   </div>
