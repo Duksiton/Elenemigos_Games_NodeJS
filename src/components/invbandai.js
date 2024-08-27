@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 import UIkit from 'uikit';
 
 import Icons from 'uikit/dist/js/uikit-icons';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -14,6 +16,17 @@ UIkit.use(Icons);
 
 
 function Bandai() {
+
+  const manejarClick = () => {
+    toast('Primero inicia sesión o regístrate para comprar!', {
+      type: 'warning', // Especifica el tipo de notificación
+      autoClose: 2000, // Tiempo en milisegundos para cerrar automáticamente
+      hideProgressBar: false, // Muestra o oculta la barra de progreso
+      closeOnClick: true, // Permite cerrar la notificación al hacer clic
+      pauseOnHover: true, // Pausa el temporizador cuando el cursor está sobre la notificación
+    });
+  };
+
 
   return (
 
@@ -150,7 +163,7 @@ function Bandai() {
                             <span className="tm-product-card-action-text">Agregar a favoritos</span>
                           </a>
                         </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -190,7 +203,7 @@ function Bandai() {
                             <span className="tm-product-card-action-text">Agregar a favoritos</span>
                           </a>
                         </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -230,7 +243,7 @@ function Bandai() {
                             <span className="tm-product-card-action-text">Agregar a favoritos</span>
                           </a>
                         </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -270,7 +283,7 @@ function Bandai() {
                             <span className="tm-product-card-action-text">Agregar a favoritos</span>
                           </a>
                         </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -310,7 +323,7 @@ function Bandai() {
                             <span className="tm-product-card-action-text">Agregar a favoritos</span>
                           </a>
                         </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -350,7 +363,7 @@ function Bandai() {
                             <span className="tm-product-card-action-text">Agregar a favoritos</span>
                           </a>
                         </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -390,7 +403,7 @@ function Bandai() {
                             <span className="tm-product-card-action-text">Agregar a favoritos</span>
                           </a>
                         </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -430,7 +443,7 @@ function Bandai() {
                             <span className="tm-product-card-action-text">Agregar a favoritos</span>
                           </a>
                         </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
