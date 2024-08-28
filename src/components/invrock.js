@@ -148,9 +148,13 @@ function Rock() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
-                      <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Grand Theft Auto V</a>
+                       <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 90GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -159,12 +163,7 @@ function Rock() {
                         <div className="tm-product-card-price">$51.888</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -188,9 +187,13 @@ function Rock() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
-                      <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Red Dead Redemption 2</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 154GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -199,12 +202,7 @@ function Rock() {
                         <div className="tm-product-card-price">$65.967</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick} >
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -228,9 +226,13 @@ function Rock() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
-                      <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>L.A. Noire</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 15GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -239,12 +241,7 @@ function Rock() {
                         <div className="tm-product-card-price">$125.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                       
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -268,9 +265,13 @@ function Rock() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
-                      <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Bully</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 10GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -279,12 +280,7 @@ function Rock() {
                         <div className="tm-product-card-price">$40.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -302,15 +298,20 @@ function Rock() {
                         </div>
                         <figure className="tm-media-box-wrap">
                           <img src="images/juegos/maxpay.png" alt="Max Payne 3" />
+                          
                         </figure>
                       </a>
                     </div>
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
-                      <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Max Payne 3</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 34GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -319,12 +320,7 @@ function Rock() {
                         <div className="tm-product-card-price">$50.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -348,9 +344,12 @@ function Rock() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
-                      <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Midnight Club 3: DUB Edition</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 25GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -359,12 +358,7 @@ function Rock() {
                         <div className="tm-product-card-price">$95.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -388,9 +382,13 @@ function Rock() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
-                      <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Manhunt</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 24GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -399,12 +397,7 @@ function Rock() {
                         <div className="tm-product-card-price">$100.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -428,23 +421,32 @@ function Rock() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
-                      <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                    <br />
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>The Warriors</a>
+                        <br />
+                        <br />
+
+                      
+ 
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 22GB</a></h3>
+                   
+                    
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
+                    <br />
+                    <br />
+                    <br />
+
                       <div className="tm-product-card-prices">
                         <del className="uk-text-meta">$120.000</del>
                         <div className="tm-product-card-price">$70.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>

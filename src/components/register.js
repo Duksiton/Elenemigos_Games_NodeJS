@@ -8,39 +8,35 @@ import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
 
 function Register() {
+  const [nombre, setName] = useState('');
+  const [correo, setEmail] = useState('');
+  const [contraseña, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
   const navigate = useNavigate();
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
-
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/register', {
+      const response = await fetch('http://127.0.0.1:5000/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ name, email, password }),
+        body: JSON.stringify({ nombre, correo, contraseña }),
       });
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.message || 'Error en el registro');
-      }
-
-      const data = await response.json();
-      if (data.message === 'Usuario registrado exitosamente') {
-        navigate('/login'); // Redirige al usuario a la página de inicio de sesión
+      if (response.ok) {
+        setSuccessMessage('¡Registro exitoso! Llevándote a la página de inicio...');
+        setTimeout(() => {
+          navigate('/login'); // Redirigir al login después de 2 segundos
+        }, 2000);
       } else {
-        setError(data.message);
+        const errorData = await response.json();
+        setError(errorData.message || 'Error en el registro');
       }
-    } catch (err) {
-      console.error('Error al enviar la solicitud:', err);
-      setError('Hubo un problema con el registro');
+    } catch (error) {
+      setError('Error en el servidor');
     }
   };
 
@@ -59,7 +55,9 @@ function Register() {
             <div className="uk-container" uk-navbar>
               <div className="uk-navbar-left">
                 <button className="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #nav-offcanvas" uk-navbar-toggle-icon />
-                <a className="uk-navbar-item uk-logo" href="/"><img src="images/logo_elenemigos.png" width={290} height={32} alt="Logo" /></a>
+                <a className="uk-navbar-item uk-logo" href="/">
+                  <img src="images/logo_elenemigos.png" width={290} height={32} alt="Logo" />
+                </a>
               </div>
               <div className="uk-navbar-right">
                 <a className="uk-navbar-toggle tm-navbar-button" href="#" uk-search-icon />
@@ -95,18 +93,43 @@ function Register() {
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name">Nombre Completo</label>
-                <input type="text" className="form-control" id="name" placeholder="Introduce tu nombre completo" required />
+                <input
+                  type="text"
+                  className="form-control"
+                  id="name"
+                  placeholder="Introduce tu nombre completo"
+                  value={nombre}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
               </div>
               <div className="form-group">
                 <label htmlFor="email">Correo Electrónico</label>
-                <input type="email" className="form-control" id="email" placeholder="Introduce tu correo electrónico" required />
+                <input
+                  type="email"
+                  className="form-control"
+                  id="email"
+                  placeholder="Introduce tu correo electrónico"
+                  value={correo}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
               </div>
               <div className="form-group">
                 <label htmlFor="password">Contraseña</label>
-                <input type="password" className="form-control" id="password" placeholder="Introduce tu contraseña" required />
+                <input
+                  type="password"
+                  className="form-control"
+                  id="password"
+                  placeholder="Introduce tu contraseña"
+                  value={contraseña}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                />
               </div>
               <button type="submit" className="btn btn-primary btn-block">Registrar</button>
               {error && <div className="alert alert-danger mt-3">{error}</div>}
+              {successMessage && <div className="alert alert-success mt-3">{successMessage}</div>}
             </form>
           </div>
         </div>

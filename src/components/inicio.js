@@ -1,7 +1,8 @@
 import React from 'react';
 
 import '../components/styles/style.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 
 import UIkit from 'uikit';
@@ -14,6 +15,16 @@ import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
 
 function Inicio() {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    // Aquí puedes agregar la lógica para cerrar sesión, como limpiar el almacenamiento local o el estado del usuario.
+    // Ejemplo: localStorage.removeItem('token');
+    
+    // Redirigir al usuario a la página de inicio de sesión.
+    navigate('/login');
+  };
+  
 
     return (
 
@@ -45,7 +56,7 @@ function Inicio() {
             <div className="uk-padding-small uk-margin-remove" uk-dropdown="pos: bottom-right; offset: -10; delay-hide: 200;" style={{minWidth: 150}}>
               <ul className="uk-nav uk-dropdown-nav">
                 <li className="uk-nav-divider" />
-                <li><a href="#">Cerrar Sesión</a></li>
+                <a href="#" onClick={handleLogout}>Cerrar Sesión</a>
               </ul>
             </div><a className="uk-navbar-item uk-link-muted tm-navbar-button" href="cart.html" uk-toggle="target: #cart-offcanvas" onclick="return false"><span uk-icon="cart" /><span className="uk-badge">2</span></a>
           </div>
@@ -79,6 +90,8 @@ function Inicio() {
         <div className="uk-margin-small-top">
 
           <div className="uk-text-truncate">Rockstar Games</div>
+          <div className="uk-text-truncate">Acción</div>
+       
 
           <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $51.800</div>
 
@@ -101,6 +114,7 @@ function Inicio() {
         <div className="uk-margin-small-top">
 
           <div className="uk-text-truncate">Activision</div>
+          <div className="uk-text-truncate">Acción</div>
 
           <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $300.000</div>
 
@@ -123,6 +137,7 @@ function Inicio() {
         <div className="uk-margin-small-top">
 
           <div className="uk-text-truncate">Ubisoft</div>
+          <div className="uk-text-truncate">Roleplay</div>
 
           <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $200.000</div>
 
@@ -145,6 +160,7 @@ function Inicio() {
         <div className="uk-margin-small-top">
 
           <div className="uk-text-truncate">Valve</div>
+          <div className="uk-text-truncate">Puzzlez</div>
 
           <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $26.000</div>
 
@@ -167,6 +183,7 @@ function Inicio() {
         <div className="uk-margin-small-top">
 
           <div className="uk-text-truncate">Electronic Arts</div>
+          <div className="uk-text-truncate">Deporte</div>
 
           <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $279.999</div>
 
@@ -189,6 +206,7 @@ function Inicio() {
         <div className="uk-margin-small-top">
 
           <div className="uk-text-truncate">Bandai Namco</div>
+          <div className="uk-text-truncate">Fantasia</div>
 
           <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $155.900</div>
 

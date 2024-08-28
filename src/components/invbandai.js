@@ -147,9 +147,14 @@ function Bandai() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Elden Ring</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 90GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -158,10 +163,9 @@ function Bandai() {
                       </div>
                       <div className="tm-product-card-add">
                         <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
                             <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
+                            
+                          
                         </div>
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
@@ -187,6 +191,8 @@ function Bandai() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Tekken 7</a>
@@ -227,10 +233,17 @@ function Bandai() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
-                        <a className="uk-link-heading" href>Dragon Ball Z: Kakarot</a>
+                      <a className="uk-link-heading" href>Dragon Ball Z: Kakarot</a>
+              
+                 
+                      
+                        
                       </h3>
+         
                     </div>
                     <div className="tm-product-card-shop">
                       <div className="tm-product-card-prices">
@@ -267,6 +280,8 @@ function Bandai() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Dark Souls III</a>
@@ -307,6 +322,8 @@ function Bandai() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Ni no Kuni II: Revenant Kingdom</a>
@@ -347,6 +364,8 @@ function Bandai() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Code Vein</a>
@@ -387,6 +406,8 @@ function Bandai() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>One Piece: Pirate Warriors 4</a>
@@ -427,6 +448,8 @@ function Bandai() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>SoulCalibur VI</a>

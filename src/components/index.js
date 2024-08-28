@@ -126,6 +126,7 @@ function Index() {
                   <div className="uk-margin-small-top">
 
                     <div className="uk-text-truncate">Rockstar Games</div>
+                    <div className="uk-text-truncate">Acción</div>
 
                     <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $51.800</div>
 
@@ -148,6 +149,7 @@ function Index() {
                   <div className="uk-margin-small-top">
 
                     <div className="uk-text-truncate">Activision</div>
+                    <div className="uk-text-truncate">Acción</div>
 
                     <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $300.000</div>
 
@@ -170,6 +172,7 @@ function Index() {
                   <div className="uk-margin-small-top">
 
                     <div className="uk-text-truncate">Ubisoft</div>
+                    <div className="uk-text-truncate">Roleplay</div>
 
                     <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $200.000</div>
 
@@ -192,6 +195,7 @@ function Index() {
                   <div className="uk-margin-small-top">
 
                     <div className="uk-text-truncate">Valve</div>
+                    <div className="uk-text-truncate">Puzzlez</div>
 
                     <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $26.000</div>
 
@@ -214,6 +218,7 @@ function Index() {
                   <div className="uk-margin-small-top">
 
                     <div className="uk-text-truncate">Electronic Arts</div>
+                    <div className="uk-text-truncate">Deporte</div>
 
                     <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $279.999</div>
 
@@ -236,6 +241,7 @@ function Index() {
                   <div className="uk-margin-small-top">
 
                     <div className="uk-text-truncate">Bandai Namco</div>
+                    <div className="uk-text-truncate">Fantasia</div>
 
                     <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $155.900</div>
 
@@ -286,6 +292,9 @@ function Index() {
                         <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
 
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Grand Theft Auto V</a></h3>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 90GB</a></h3>
 
                       </div>
 
@@ -299,11 +308,7 @@ function Index() {
 
                         <div className="tm-product-card-add">
 
-                          <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">Agregar a
-
-                            favoritos</span></a>
-
-                          </div> <button
+                         <button
                             className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
                             onClick={manejarClick}
                           >
@@ -342,7 +347,11 @@ function Index() {
 
                         <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
 
+    
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Elden Ring</a></h3>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 55GB</a></h3>
 
                       </div>
 
@@ -356,11 +365,7 @@ function Index() {
 
                         <div className="tm-product-card-add">
 
-                          <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">Agregar a
-
-                            favoritos</span></a>
-
-                          </div><button
+                        <button
                             className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
                             onClick={manejarClick}
                           >
@@ -400,6 +405,9 @@ function Index() {
                         <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
 
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Call of Duty: Black Ops 6</a></h3>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 120GB</a></h3>
 
                       </div>
 
@@ -413,11 +421,7 @@ function Index() {
 
                         <div className="tm-product-card-add">
 
-                          <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">Agregar a
-
-                            favoritos</span></a>
-
-                          </div><button
+                         <button
                             className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
                             onClick={manejarClick}
                           >
@@ -457,6 +461,9 @@ function Index() {
                         <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
 
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Left 4 Dead 2</a></h3>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 13GB</a></h3>
 
                       </div>
 
@@ -470,13 +477,7 @@ function Index() {
 
                         <div className="tm-product-card-add">
 
-                          <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites" title="Add to favorites">
-
-                            <span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">Agregar a
-
-                              favoritos</span></a>
-
-                          </div><button
+                          <button
                             className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
                             onClick={manejarClick}
                           >
@@ -516,6 +517,9 @@ function Index() {
                         <div className="uk-text-meta uk-margin-xsmall-bottom">Electronic Arts</div>
 
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>F1 24</a></h3>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 100GB</a></h3>
 
                       </div>
 
@@ -529,11 +533,7 @@ function Index() {
 
                         <div className="tm-product-card-add">
 
-                          <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">Añadir a
-
-                            favoritos</span></a>
-
-                          </div><button
+                         <button
                             className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
                             onClick={manejarClick}
                           >
@@ -562,6 +562,7 @@ function Index() {
                         <div className="tm-product-card-labels"><span className="uk-label uk-label-success">Nuevo</span></div>
 
                         <figure className="tm-media-box-wrap"><img src="images/juegos/as_val.jpg" alt="Assassin's Credd Valhalla" />
+                        
 
                         </figure>
 
@@ -576,6 +577,9 @@ function Index() {
                         <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
 
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Assassin's Creed Valhalla</a></h3>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 50GB</a></h3>
 
                       </div>
 
@@ -589,11 +593,7 @@ function Index() {
 
                         <div className="tm-product-card-add">
 
-                          <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">AÃ±adir a
-
-                            favoritos</span></a>
-
-                          </div><button
+                          <button
                             className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
                             onClick={manejarClick}
                           >
@@ -631,6 +631,9 @@ function Index() {
                         <div className="uk-text-meta uk-margin-xsmall-bottom">Rockstar Games</div>
 
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Red Dead Redemption 2</a></h3>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 154GB</a></h3>
 
                       </div>
 
@@ -644,11 +647,7 @@ function Index() {
 
                         <div className="tm-product-card-add">
 
-                          <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">AÃ±adir a
-
-                            favoritos</span></a>
-
-                          </div><button
+                       <button
                             className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
                             onClick={manejarClick}
                           >
@@ -672,7 +671,7 @@ function Index() {
 
                       <div className="tm-ratio tm-ratio-4-3"><a className="tm-media-box" href>
 
-                        <div className="tm-product-card-labels"><span className="uk-label uk-label-warning">MÃ¡s vendidos</span></div>
+                        <div className="tm-product-card-labels"><span className="uk-label uk-label-warning">Más vendidos</span></div>
 
                         <figure className="tm-media-box-wrap"><img src="images/juegos/portal_2.jpg" alt="Portal 2" /></figure>
 
@@ -687,6 +686,9 @@ function Index() {
                         <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
 
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Portal 2</a></h3>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                        <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 8GB</a></h3>
 
                       </div>
 
@@ -700,11 +702,7 @@ function Index() {
 
                         <div className="tm-product-card-add">
 
-                          <div className="uk-text-meta tm-product-card-actions"><a className="tm-product-card-action js-add-to js-add-to-favorites" title="Add to favorites"><span uk-icon="icon: heart; ratio: .75;" /><span className="tm-product-card-action-text">AÃ±adir a
-
-                            favoritos</span></a>
-
-                          </div><button
+                         <button
                             className="uk-button uk-button-primary tm-product-card-add-button tm-shine"
                             onClick={manejarClick}
                           >
