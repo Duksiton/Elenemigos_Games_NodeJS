@@ -134,29 +134,7 @@ function Index() {
 
                 </a></div>
 
-                <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invactivision">
-
-                  <div className="tm-ratio tm-ratio-4-3">
-
-                    <div className="tm-media-box">
-
-                      <figure className="tm-media-box-wrap"><img className="item-brand" src="images//activision.png" alt="Activision" /></figure>
-
-                    </div>
-
-                  </div>
-
-                  <div className="uk-margin-small-top">
-
-                    <div className="uk-text-truncate">Activision</div>
-                    <div className="uk-text-truncate">Acción</div>
-
-                    <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $300.000</div>
-
-                  </div>
-
-                </a></div>
-
+              
                 <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invubisoft">
 
                   <div className="tm-ratio tm-ratio-4-3">
@@ -226,29 +204,7 @@ function Index() {
 
                 </a></div>
 
-                <div><a className="uk-link-muted uk-text-center uk-display-block uk-padding-small uk-box-shadow-hover-large" href="/invbandai">
-
-                  <div className="tm-ratio tm-ratio-4-3">
-
-                    <div className="tm-media-box">
-
-                      <figure className="tm-media-box-wrap"><img className="item-brand" src="images/bandai_namco.png" alt="Bandai Namco" /></figure>
-
-                    </div>
-
-                  </div>
-
-                  <div className="uk-margin-small-top">
-
-                    <div className="uk-text-truncate">Bandai Namco</div>
-                    <div className="uk-text-truncate">Fantasia</div>
-
-                    <div className="uk-text-meta uk-text-xsmall uk-text-truncate">desde COP $155.900</div>
-
-                  </div>
-
-                </a></div>
-
+                
               </div>
 
             </div>
@@ -335,7 +291,7 @@ function Index() {
 
                         <div className="tm-product-card-labels"><span className="uk-label uk-label-success">Nuevo</span></div>
 
-                        <figure className="tm-media-box-wrap"><img src="images/juegos/elden_ring.jpg" alt="elden_ring" /></figure>
+                        <figure className="tm-media-box-wrap"><img src="/images/juegos/fc24.jpg" alt="elden_ring" /></figure>
 
                       </a></div>
 
@@ -345,10 +301,10 @@ function Index() {
 
                       <div className="tm-product-card-info">
 
-                        <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
+                        <div className="uk-text-meta uk-margin-xsmall-bottom">Electronic Arts</div>
 
     
-                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Elden Ring</a></h3>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>FIFA 24</a></h3>
                         <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
                         <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                         <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 55GB</a></h3>
@@ -359,7 +315,7 @@ function Index() {
 
                         <div className="tm-product-card-prices">
 
-                          <div className="tm-product-card-price">$199.900</div>
+                          <div className="tm-product-card-price">$289.999</div>
 
                         </div>
 
@@ -392,7 +348,7 @@ function Index() {
 
                         <div className="tm-product-card-labels"><span className="uk-label uk-label-success">Nuevo</span></div>
 
-                        <figure className="tm-media-box-wrap"><img src="images/juegos/call_of_duty_6.jpg" /></figure>
+                        <figure className="tm-media-box-wrap"><img src="images/juegos/farcry6.jpg" /></figure>
 
                       </a></div>
 
@@ -402,12 +358,12 @@ function Index() {
 
                       <div className="tm-product-card-info">
 
-                        <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
+                        <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
 
-                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Call of Duty: Black Ops 6</a></h3>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Far Cry 6</a></h3>
                         <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
                         <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
-                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 120GB</a></h3>
+                        <h3 className="tm-product-card-title"><a className="uk-link-heading" href>Peso: 74GB</a></h3>
 
                       </div>
 
@@ -415,7 +371,7 @@ function Index() {
 
                         <div className="tm-product-card-prices">
 
-                          <div className="tm-product-card-price">$269.999</div>
+                          <div className="tm-product-card-price">$180.000</div>
 
                         </div>
 
@@ -724,7 +680,10 @@ function Index() {
 
               </div>
 
-            </div></section>
+            </div>
+            
+            
+          </section>
 
 
 

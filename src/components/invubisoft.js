@@ -147,8 +147,12 @@ function Ubisfot() {
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
+                      <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                      <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Assassin's Creed Valhalla</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 58GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -156,12 +160,7 @@ function Ubisfot() {
                         <div className="tm-product-card-price">$199.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                      
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -185,9 +184,14 @@ function Ubisfot() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Far Cry 6</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 74GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -196,12 +200,7 @@ function Ubisfot() {
                         <div className="tm-product-card-price">$180.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                   
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -225,9 +224,14 @@ function Ubisfot() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Rainbow Six Siege</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 60GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -235,12 +239,7 @@ function Ubisfot() {
                         <div className="tm-product-card-price">$150.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                       
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -264,9 +263,14 @@ function Ubisfot() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Watch Dogs: Legion</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 30GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -274,12 +278,7 @@ function Ubisfot() {
                         <div className="tm-product-card-price">$200.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                     
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -303,9 +302,14 @@ function Ubisfot() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>The Division 2</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 12GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -314,12 +318,7 @@ function Ubisfot() {
                         <div className="tm-product-card-price">$160.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                     
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -343,9 +342,13 @@ function Ubisfot() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Ghost Recon: Breakpoint</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 54GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -353,12 +356,7 @@ function Ubisfot() {
                         <div className="tm-product-card-price">$170.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                  
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -382,9 +380,12 @@ function Ubisfot() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>For Honor</a>
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 25GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -392,12 +393,7 @@ function Ubisfot() {
                         <div className="tm-product-card-price">$210.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                       
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -421,9 +417,12 @@ function Ubisfot() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Ubisoft</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Immortals Fenyx Rising</a>
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 9GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -431,12 +430,7 @@ function Ubisfot() {
                         <div className="tm-product-card-price">$190.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                    
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>

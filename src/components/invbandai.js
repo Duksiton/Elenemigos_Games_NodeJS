@@ -196,6 +196,9 @@ function Bandai() {
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Tekken 7</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 130GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -239,7 +242,9 @@ function Bandai() {
                       <h3 className="tm-product-card-title">
                       <a className="uk-link-heading" href>Dragon Ball Z: Kakarot</a>
               
-                 
+                      <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 55GB</a></h3>
                       
                         
                       </h3>
@@ -285,6 +290,9 @@ function Bandai() {
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Dark Souls III</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 35GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -325,8 +333,11 @@ function Bandai() {
                     <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
                     <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
+                      <br />
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Ni no Kuni II: Revenant Kingdom</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 86GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -358,6 +369,7 @@ function Bandai() {
                         </div>
                         <figure className="tm-media-box-wrap">
                           <img src="images/juegos/codevein.jpg" alt="Code Vein" />
+                          
                         </figure>
                       </a>
                     </div>
@@ -369,6 +381,10 @@ function Bandai() {
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Code Vein</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 60GB</a></h3>
+                        
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -411,6 +427,8 @@ function Bandai() {
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>One Piece: Pirate Warriors 4</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 110GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -453,6 +471,9 @@ function Bandai() {
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Bandai Namco</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>SoulCalibur VI</a>
+                        <br />
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 44GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">

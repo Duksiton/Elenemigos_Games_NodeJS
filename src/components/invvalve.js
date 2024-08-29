@@ -147,9 +147,13 @@ function Valve() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Half-Life: Alyx</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 5GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -157,12 +161,7 @@ function Valve() {
                         <div className="tm-product-card-price">$130.500</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                       
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -186,9 +185,13 @@ function Valve() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Portal 2</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 20GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -196,12 +199,7 @@ function Valve() {
                         <div className="tm-product-card-price">$26.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -225,6 +223,8 @@ function Valve() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Left 4 Dead 2</a>
@@ -233,14 +233,11 @@ function Valve() {
                     <div className="tm-product-card-shop">
                       <div className="tm-product-card-prices">
                         <div className="tm-product-card-price">$26.000</div>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 11GB</a></h3>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                       
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -264,9 +261,13 @@ function Valve() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Team Fortress 2</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 15GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -274,12 +275,7 @@ function Valve() {
                         <div className="tm-product-card-price">$22.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                        
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -303,9 +299,13 @@ function Valve() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Dota 2</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 20GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -313,12 +313,7 @@ function Valve() {
                         <div className="tm-product-card-price">$14.900</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                       
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -342,9 +337,13 @@ function Valve() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Half-Life 2</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 2GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -352,12 +351,7 @@ function Valve() {
                         <div className="tm-product-card-price">$11.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                      
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -381,9 +375,13 @@ function Valve() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Counter-Strike: Global Offensive</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 9GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -391,12 +389,7 @@ function Valve() {
                         <div className="tm-product-card-price">$64.500</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                      
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
@@ -420,9 +413,13 @@ function Valve() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Valve</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Left 4 Dead</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 20GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -430,12 +427,7 @@ function Valve() {
                         <div className="tm-product-card-price">$22.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
+                       
                         <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>

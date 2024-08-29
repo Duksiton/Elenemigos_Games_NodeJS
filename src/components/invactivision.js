@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 import UIkit from 'uikit';
 
 import Icons from 'uikit/dist/js/uikit-icons';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -14,6 +16,17 @@ UIkit.use(Icons);
 
 
 function Activision() {
+
+  const manejarClick = () => {
+    toast('Primero inicia sesión o regístrate para comprar!', {
+      type: 'warning', // Especifica el tipo de notificación
+      autoClose: 2000, // Tiempo en milisegundos para cerrar automáticamente
+      hideProgressBar: false, // Muestra o oculta la barra de progreso
+      closeOnClick: true, // Permite cerrar la notificación al hacer clic
+      pauseOnHover: true, // Pausa el temporizador cuando el cursor está sobre la notificación
+    });
+  };
+
 
   return (
 
@@ -132,8 +145,12 @@ function Activision() {
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
+                      <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                      <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Call of Duty: Black Ops 6</a>
+                        
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 180GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -141,13 +158,8 @@ function Activision() {
                         <div className="tm-product-card-price">$269.999</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                      
+                      <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -170,9 +182,13 @@ function Activision() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Call of Duty: Modern Warfare</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 234GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -181,13 +197,8 @@ function Activision() {
                         <div className="tm-product-card-price">$95.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                       
+                      <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -210,9 +221,13 @@ function Activision() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Crash Bandicoot N. Sane Trilogy</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 54GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -221,13 +236,8 @@ function Activision() {
                         <div className="tm-product-card-price">$70.600</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                      
+                      <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -250,9 +260,13 @@ function Activision() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Spyro Reignited Trilogy</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 44GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -261,13 +275,8 @@ function Activision() {
                         <div className="tm-product-card-price">$25.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                       
+                      <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -290,9 +299,13 @@ function Activision() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Sekiro: Shadows Die Twice</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 94GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -301,13 +314,8 @@ function Activision() {
                         <div className="tm-product-card-price">$215.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                     
+                      <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -330,9 +338,13 @@ function Activision() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Overwatch</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 50GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -341,13 +353,8 @@ function Activision() {
                         <div className="tm-product-card-price">$13.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                       
+                      <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -370,9 +377,13 @@ function Activision() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Tony Hawk's Pro Skater 1+2</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 25GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -381,13 +392,8 @@ function Activision() {
                         <div className="tm-product-card-price">$279.900</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                        
+                      <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
@@ -410,9 +416,13 @@ function Activision() {
                   </div>
                   <div className="tm-product-card-body">
                     <div className="tm-product-card-info">
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias disponibles: 60</h1>
+                    <h1 className="uk-text-meta uk-margin-xsmall-bottom">Licencias vendidas: (numero)</h1>
                       <div className="uk-text-meta uk-margin-xsmall-bottom">Activision</div>
                       <h3 className="tm-product-card-title">
                         <a className="uk-link-heading" href>Diablo II: Resurrected</a>
+                        <br />
+                        <h3 className="tm-product-card-title"><a className="precio" href>Peso: 14GB</a></h3>
                       </h3>
                     </div>
                     <div className="tm-product-card-shop">
@@ -421,13 +431,8 @@ function Activision() {
                         <div className="tm-product-card-price">$42.000</div>
                       </div>
                       <div className="tm-product-card-add">
-                        <div className="uk-text-meta tm-product-card-actions">
-                          <a className="tm-product-card-action js-add-to js-add-to-favorites tm-action-button-active js-added-to" title="Add to favorites">
-                            <span uk-icon="icon: heart; ratio: .75;" />
-                            <span className="tm-product-card-action-text">Agregar a favoritos</span>
-                          </a>
-                        </div>
-                        <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart">
+                      
+                      <button className="uk-button uk-button-primary tm-product-card-add-button tm-shine js-add-to-cart" onClick={manejarClick}>
                           <span className="tm-product-card-add-button-icon" uk-icon="cart" />
                           <span className="tm-product-card-add-button-text">Agregar al carrito</span>
                         </button>
